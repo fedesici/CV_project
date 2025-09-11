@@ -13,18 +13,18 @@
 ```
 
 ## Notebook overview
-1. Configuration//
-This is the control panel for the project. Here is possible to modify the setup of the code and hyperparameters
-2. Utility Functions
-Here the bins are discretized, and are selected the valid bins
-3. Selectivity Loss
-Here is defined the class of the selectivity loss, which aims to maximize the Depth Selectivity score
-4. Dataset
-In this section is handled the NYUDepth dataset, and created the dataloaders 
-5. Model Architecture & Training
-Where to load the model, MobileNetSkippAdd based on fastdepth, and to start the training loop
-6. Evaluation
-This final section measures the model's performance both on depth and selectivity metrics, showing also the visual results of the depth predictions, activation maps and units response 
+1. Configuration  
+This is the control panel for the project. Here is possible to modify the setup of the code and hyperparameters  
+2. Utility Functions  
+Here the bins are discretized, and are selected the valid bins  
+3. Selectivity Loss  
+Here is defined the class of the selectivity loss, which aims to maximize the Depth Selectivity score  
+4. Dataset  
+In this section is handled the NYUDepth dataset, and created the dataloaders   
+5. Model Architecture & Training  
+Where to load the model, MobileNetSkippAdd based on fastdepth, and to start the training loop  
+6. Evaluation  
+This final section measures the model's performance both on depth and selectivity metrics, showing also the visual results of the depth predictions, activation maps and units response   
 
 ## Notebook use
 1. Dataset
