@@ -1,7 +1,6 @@
 # CV_project
 ## Repository Structure
-code
-code
+"""
 /
 ├── Cv_project_neuronsel.ipynb #the main notebook with all the code
 ├── models/ #models pretrained, baseline and interpretable                        
@@ -10,7 +9,7 @@ code
 ├── nyu_data/ #folder which contain the dataset
 ├── imagenet/ #module to run fastdepth
 ├── fastdepth_model.py #model architecture
-└── README.md 
+└── README.md """
 
 ## Notebook overview
 1. Configuration
@@ -23,7 +22,7 @@ Here is defined the class of the selectivity loss, which aims to maximize the De
 In this section is handled the NYUDepth dataset, and created the dataloaders 
 5. Model Architecture & Training
 Where to load the model, MobileNetSkippAdd based on fastdepth, and to start the training loop
-6. Evaluation & Analysis
+6. Evaluation
 This final section measures the model's performance both on depth and selectivity metrics, showing also the visual results of the depth predictions, activation maps and units response 
 
 ## Notebook use
