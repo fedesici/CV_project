@@ -1,7 +1,7 @@
 # CV_project
 ## Repository Structure
 code
-Code
+code
 /
 ├── Cv_project_neuronsel.ipynb #the main notebook with all the code
 ├── models/ #models pretrained, baseline and interpretable                        
@@ -11,8 +11,7 @@ Code
 ├── imagenet/ #module to run fastdepth
 ├── fastdepth_model.py #model architecture
 └── README.md 
-code
-code
+
 ## Notebook overview
 1. Configuration
 This is the control panel for the project. Here is possible to modify the setup of the code and hyperparameters
