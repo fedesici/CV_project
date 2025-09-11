@@ -10,7 +10,9 @@ Code
 ├── nyu_data/ #folder which contain the dataset
 ├── imagenet/ #module to run fastdepth
 ├── fastdepth_model.py #model architecture
-└── README.md    
+└── README.md 
+code
+code
 ## Notebook overview
 1. Configuration
 This is the control panel for the project. Here is possible to modify the setup of the code and hyperparameters
