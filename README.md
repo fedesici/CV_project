@@ -59,7 +59,7 @@ The x-axis represents different depth bins
 The y-axis shows the neuron's average activation response for that depth  
 The orange bar highlights the depth bin that the neuron was assigned to target during training.  
 Here is it possible to choose the number of units to show and also the number of batches where the average is calculated  
-Activation Maps   
+3. Activation Maps   
 The function visualize_activation_maps, shows the activations map for a unit in a specific image  
 To choose which neurons and images to inspect modify the following parameters:  
 units_to_show: A list of neuron indices you want to see  
