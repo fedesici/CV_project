@@ -1,6 +1,6 @@
 # CV_project
 ## Repository Structure
-"""
+```
 /
 ├── Cv_project_neuronsel.ipynb #the main notebook with all the code
 ├── models/ #models pretrained, baseline and interpretable                        
@@ -9,7 +9,8 @@
 ├── nyu_data/ #folder which contain the dataset
 ├── imagenet/ #module to run fastdepth
 ├── fastdepth_model.py #model architecture
-└── README.md """
+└── README.md
+```
 
 ## Notebook overview
 1. Configuration
@@ -27,14 +28,15 @@ This final section measures the model's performance both on depth and selectivit
 
 ## Notebook use
 1. Dataset
-The notebook expects the following structure for the dataset:
+The notebook expects the following structure for the dataset
+```
 code
 Code
 nyu_data/
 └── data/
     ├── nyu2_train/
     └── nyu2_test/
-
+```
 In the CONFIG dictionary one can decide to enable or disable the selectivity in the following way:
 "ENABLE_SELECTIVITY": False: runs the standard baseline model, train the model only with L1Loss
 "ENABLE_SELECTIVITY": True: runs the interpretable model, adding the selectivity loss in the training
