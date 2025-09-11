@@ -28,7 +28,7 @@ This final section measures the model's performance both on depth and selectivit
 
 ## Notebook use
 ### Dataset  
-The link to the dataset is: https://www.kaggle.com/datasets/soumikrakshit/nyu-depth-v2
+The link to the dataset is: https://www.kaggle.com/datasets/soumikrakshit/nyu-depth-v2     
 The notebook expects the following structure for the dataset  
 ```
 nyu_data/
