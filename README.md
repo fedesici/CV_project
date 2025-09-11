@@ -13,21 +13,21 @@
 ```
 
 ## Notebook overview
-1. Configuration  
+### Configuration  
 This is the control panel for the project. Here is possible to modify the setup of the code and hyperparameters  
-2. Utility Functions  
+### Utility Functions  
 Here the bins are discretized, and are selected the valid bins  
-3. Selectivity Loss  
+### Selectivity Loss  
 Here is defined the class of the selectivity loss, which aims to maximize the Depth Selectivity score  
-4. Dataset  
+### Dataset  
 In this section is handled the NYUDepth dataset, and created the dataloaders   
-5. Model Architecture & Training  
+### Model Architecture & Training  
 Where to load the model, MobileNetSkippAdd based on fastdepth, and to start the training loop  
-6. Evaluation  
+### Evaluation  
 This final section measures the model's performance both on depth and selectivity metrics, showing also the visual results of the depth predictions, activation maps and units response   
 
 ## Notebook use
-1. Dataset  
+### Dataset  
 The notebook expects the following structure for the dataset  
 ```
 nyu_data/
@@ -39,20 +39,20 @@ In the CONFIG dictionary one can decide to enable or disable the selectivity in 
 "ENABLE_SELECTIVITY": False: runs the standard baseline model, train the model only with L1Loss  
 "ENABLE_SELECTIVITY": True: runs the interpretable model, adding the selectivity loss in the training  
 SELECTIVITY_LAYER_NAME is a variable to select the layer where to apply selectivity  
-2. Training a Model  
+### Training a Model  
 Set your desired configuration in the CONFIG cell.  
 If you want to start a new training run, make sure "RESUME_CHECKPOINT" is set to None, otherwise provide the checkpoint path  
 Run all cells up to the training one  
 The best model will be saved in the models/ directory, and the latest checkpoint will be saved in checkpoint/  
-3. Evaluating a Pre-trained Model  
+### Evaluating a Pre-trained Model  
 If you just want to evaluate the pre-trained models provided in the models/ folder:  
 Set the CONFIG to match the model you want to evaluate  
 Run the cells until the network section, and skip the train sections  
 Then run the evaluation section  
-4. Evaluation Part  
-Depth Performance  
+### Evaluation Part  
+1. Depth Performance  
 In the function visualize_predictions(), is it possible to show decide how many random samples to show by modifying num_samples   
-Neuron Selectivity  
+2. Neuron Selectivity  
 This part analyzes neurons in the target layer to see if they have learned to be selective for specific depth ranges. It generates bar plots where:  
 Each plot represents one neuron.  
 The x-axis represents different depth bins  
