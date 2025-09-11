@@ -30,8 +30,6 @@ This final section measures the model's performance both on depth and selectivit
 1. Dataset
 The notebook expects the following structure for the dataset
 ```
-code
-Code
 nyu_data/
 └── data/
     ├── nyu2_train/
