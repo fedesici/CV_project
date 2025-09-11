@@ -13,7 +13,7 @@
 ```
 
 ## Notebook overview
-1. Configuration
+1. Configuration//
 This is the control panel for the project. Here is possible to modify the setup of the code and hyperparameters
 2. Utility Functions
 Here the bins are discretized, and are selected the valid bins
